@@ -1,0 +1,20 @@
+.dropdown-toggle:hover ~ .dropdown-menu {
+  display: block !important;
+}
+
+.dropdown-menu:hover {
+  display: block !important;
+}
+
+@media (max-width: 782px) {
+  .dropdown-toggle {
+    display: none !important;
+  }
+
+  .dropdown-menu {
+    display: block !important;
+    width: 100%;
+    text-align: center;
+    top: 40px;
+  }
+}
